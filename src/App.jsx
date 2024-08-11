@@ -1,5 +1,8 @@
 import './App.css'
-import { Person } from './learning/MoreOnState/assignment/Person';
+// import Profile from './assignment/PassingPropstoaComponent/Profile';
+import ProfileTwo from './assignment/PassingPropstoaComponent/ProfileTwo';
+// import { StateOne } from './learning/IntroductionToState/StateOne';
+// import { Person } from './learning/MoreOnState/assignment/Person';
 // import { CustomInput } from './learning/MoreOnState/CustomInput';
 // import { PersonFour } from './learning/MoreOnState/PersonFour';
 // import { PersonTwo } from './learning/MoreOnState/PersonTwo';
@@ -15,10 +18,13 @@ function App() {
         {/* <RenderJSXTwo /> */}
         {/* <RenderJSXThree /> */}
         {/* <RenderJSXFour /> */}
+        {/* <Profile /> */}
+        <ProfileTwo />
         {/* <PersonTwo /> */}
         {/* <PersonFour /> */}
         {/* <CustomInput /> */}
-        <Person />
+        {/* <Person /> */}
+        {/* <StateOne /> */}
       </div>
     );
 }
