@@ -30,3 +30,11 @@ export default function Profile() {
   );
 }
 ```
+## Resumen
+- Para pasar props, agrégalos al JSX, tal como lo harías con los atributos HTML.
+- Para leer props, usa la sintaxis de desestructuración de la función Avatar({ person, size }).
+- Puedes especificar un valor predeterminado como size = 100, que se usa para props faltantes o indefinidos.
+- Puedes reenviar todos los props con la sintaxis de propagación JSX <Avatar {...props} />, ¡pero no la uses en exceso!
+- Los JSX anidados como <Card><Avatar /></Card> aparecerán como props secundarios del componente Card.
+- Los props son instantáneas de solo lectura en el tiempo: cada render recibe una nueva versión de los props.
+- No puedes cambiar los props. Cuando necesites interactividad, necesitarás establecer el estado.

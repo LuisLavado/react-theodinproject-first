@@ -17,7 +17,7 @@ function Avatar({ person, size = 100  }) {
   );
 }
 
-export default function ProfileTwo() {
+export default function ProfileThree() {
   return (
     <div>
       <Avatar

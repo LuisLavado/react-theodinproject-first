@@ -1,6 +1,7 @@
 import './App.css'
+import ProfileFive from './assignment/PassingPropstoaComponent/ProfileFive';
 // import Profile from './assignment/PassingPropstoaComponent/Profile';
-import ProfileTwo from './assignment/PassingPropstoaComponent/ProfileTwo';
+// import ProfileTwo from './assignment/PassingPropstoaComponent/ProfileTwo';
 // import { StateOne } from './learning/IntroductionToState/StateOne';
 // import { Person } from './learning/MoreOnState/assignment/Person';
 // import { CustomInput } from './learning/MoreOnState/CustomInput';
@@ -19,7 +20,8 @@ function App() {
         {/* <RenderJSXThree /> */}
         {/* <RenderJSXFour /> */}
         {/* <Profile /> */}
-        <ProfileTwo />
+        {/* <ProfileTwo /> */}
+        <ProfileFive />
         {/* <PersonTwo /> */}
         {/* <PersonFour /> */}
         {/* <CustomInput /> */}
